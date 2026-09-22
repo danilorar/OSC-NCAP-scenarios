@@ -8,7 +8,7 @@
     </Properties>
   </FileHeader>
   <ParameterDeclarations>
-    <ParameterDeclaration name="Overlap" parameterType="double" value="25">
+    <ParameterDeclaration name="Overlap" parameterType="double" value="50">
       <!--overlap in percent at collision as defined in NCAP protocol-->
     </ParameterDeclaration>
     <ParameterDeclaration name="Ego_length" parameterType="double" value="4.358" />

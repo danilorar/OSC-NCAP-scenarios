@@ -27,13 +27,13 @@
     <ParameterDeclaration name="Overlap" parameterType="double" value="100">
       <!--lateral overlap defined as a percentage of the width of the VUT overlapping the GVT-->
     </ParameterDeclaration>
-    <ParameterDeclaration name="isCCRbraking" parameterType="boolean" value="false">
+    <ParameterDeclaration name="isCCRbraking" parameterType="boolean" value="true"> <!-- Change to true to see GVT to brake and both collide-->
       <!--flag to indicate if GVT is braking (CCRb only)-->
     </ParameterDeclaration>
     <ParameterDeclaration name="GVT_width" parameterType="double" value="1.712">
       <!--required for positioning according to overlap-->
     </ParameterDeclaration>
-    <ParameterDeclaration name="GVT_init_speed_kph" parameterType="double" value="0">
+    <ParameterDeclaration name="GVT_init_speed_kph" parameterType="double" value="20"> <!-- Changed from 0 to 10 in vehicle in front-->
       <!--initial speed of the GVT-->
     </ParameterDeclaration>
     <ParameterDeclaration name="GVT_final_speed_kph" parameterType="double" value="0">

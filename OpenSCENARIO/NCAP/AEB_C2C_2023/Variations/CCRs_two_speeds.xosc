@@ -11,6 +11,7 @@
       </DeterministicSingleParameterDistribution>
       <DeterministicSingleParameterDistribution parameterName="Ego_speed_kph">
         <DistributionSet>
+          <Element value="30" />
           <Element value="50" />
         </DistributionSet>
       </DeterministicSingleParameterDistribution>
